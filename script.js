@@ -45,7 +45,6 @@ function getLocation() {
 console.log("An error occured!!",error);
 erroraddress.innerHTML="";
 erroruser.innerHTML=`
-Code:<b>${error.code}</b><br>
 Error Message:<b>${error.message}</b>`;},
 {
   timeout: 7000, // 7 seconds timeout
@@ -83,7 +82,7 @@ fetch(`https://api.geoapify.com/v1/geocode/search?text=${encodeURIComponent(sear
     <p id="error0"></p>`;
   })
   .catch(error => {console.log('error', error);
-    erroraddress.innerHTML=`An error occured: ${error}`;
+    erroraddress.innerHTML=`Time Zone could not be found!`;
     erroruser.innerHTML="";
     addressdiv.style.display="none";
     document.getElementById('heading3').style.display="none";
