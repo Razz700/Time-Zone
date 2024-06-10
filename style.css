@@ -1,0 +1,89 @@
+
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#heading{
+    font-weight: 700;
+    font-size: x-large;
+}
+#heading p{
+padding: 10px;
+}
+#first{
+    background-color: rgba(255, 255, 255, 1);
+    padding-bottom: 20px;
+}
+#usergeo{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+#usergeo p,#addresslocation p{
+    padding: 5px;
+}
+#second{
+    background-color: black;
+    color: white;
+    padding-top:30px;
+    padding-bottom: 50px;
+}
+
+#heading2{
+    font-weight: 700;
+    font-size: x-large;
+    padding: 10px 0px;
+    color: white;
+}
+#heading3{
+    font-weight: 700;
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+    color: white;   
+}
+#addressgeo{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+#addressgeo input{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+#addressgeo input::placeholder{
+    color: white;
+    opacity: 1;
+}
+#addressgeo button{
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+    padding: 5px 25px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+#addressgeo button:hover{
+    background-color: gainsboro;
+}
+#error,#error0{
+    color: rgba(232, 68, 68, 1);
+}
+#addresslocation{
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
